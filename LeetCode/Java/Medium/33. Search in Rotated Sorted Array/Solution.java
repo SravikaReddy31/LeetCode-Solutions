@@ -7,19 +7,21 @@ class Solution {
             if (nums[mid] == target) {
                 return mid;
             }
-            if (nums[low] <= nums[mid]) {
+            if (nums[low] == nums[mid] && nums[mid] == nums[high]) {
+                low++;
+                high--;
+                continue;
+            }
+            if (nums[low] <= nums[mid]) { //left sorted
                 if (target >= nums[low] && target < nums[mid]) {
                     high = mid - 1;
-                }
-                else {
+                } else {
                     low = mid + 1;
                 }
-            }
-            else {
+            } else { 
                 if (target > nums[mid] && target <= nums[high]) {
                     low = mid + 1;
-                }
-                else {
+                } else {
                     high = mid - 1;
                 }
             }
