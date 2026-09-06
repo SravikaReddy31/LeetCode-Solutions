@@ -6,7 +6,7 @@ class Solution {
         int mid = left + (right-left)/2;
         if(arr[left]<=arr[right]) {
             min = arr[left];        
-        }else if(arr[mid+1] <= arr[right]) {
+        }else (arr[mid+1] <= arr[right]) {
             min = arr[mid+1];
         }
         return min;
