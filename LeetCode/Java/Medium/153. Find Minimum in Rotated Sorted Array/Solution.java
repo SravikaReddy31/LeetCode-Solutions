@@ -10,7 +10,7 @@ class Solution {
             min = arr[mid];
         } else if(arr[mid+1] <= arr[right]) {
             min = arr[mid+1];
-        }
+        } else 
         return min;
     }
 }
