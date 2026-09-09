@@ -8,8 +8,8 @@
 Linked List, Design
 
 ### 🚀 Performance
-- **Runtime:** 10 ms
-- **Memory:** 46.6 MB
+- **Runtime:** 116 ms
+- **Memory:** 46.8 MB
 
 ---
 
