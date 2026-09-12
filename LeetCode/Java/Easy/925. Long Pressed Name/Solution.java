@@ -6,10 +6,11 @@ class Solution {
                 i++;j++;
             } else if(j>0 && typed.charAt(j) == typed.charAt(j-1)) {
                 j++;
+                return tr
             } else {
                 return false;
             }
         }
-        return i=
+        return true;
     }
 }
