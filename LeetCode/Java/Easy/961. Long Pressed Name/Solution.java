@@ -10,6 +10,6 @@ class Solution {
                 return false;
             }
         }
-        return i==name.length();
+        return true;
     }
 }
