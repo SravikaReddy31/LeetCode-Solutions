@@ -6,6 +6,7 @@ class Solution {
                 i++;j++;
             } else if(j>0 && typed.charAt(j) == typed.charAt(j-1)) {
                 j++;
+                return true;
             } else {
                 return false;
             }
