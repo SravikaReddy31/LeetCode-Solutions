@@ -8,7 +8,7 @@
 Math, Dynamic Programming
 
 ### 🚀 Performance
-- **Runtime:** 58 ms
+- **Runtime:** 4 ms
 - **Memory:** 42.2 MB
 
 ---
