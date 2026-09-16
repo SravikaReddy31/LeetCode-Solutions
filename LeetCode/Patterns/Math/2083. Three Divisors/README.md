@@ -9,7 +9,7 @@ Math, Enumeration, Number Theory, Prime Factorization, Sieve Theory
 
 ### 🚀 Performance
 - **Runtime:** 1 ms
-- **Memory:** 42.3 MB
+- **Memory:** 42.2 MB
 
 ---
 
