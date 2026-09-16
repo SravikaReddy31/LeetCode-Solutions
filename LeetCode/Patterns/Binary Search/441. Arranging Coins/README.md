@@ -8,8 +8,8 @@
 Math, Binary Search
 
 ### 🚀 Performance
-- **Runtime:** 6 ms
-- **Memory:** 42.9 MB
+- **Runtime:** 9 ms
+- **Memory:** 42.5 MB
 
 ---
 
