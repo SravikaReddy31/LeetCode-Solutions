@@ -6,6 +6,8 @@ class Solution {
             for(int j=0;j<arr.length;j++) {
                 if(d == arr[j]) {
                     return true;
+                } else {
+                    return false;
                 }
             }
         }
