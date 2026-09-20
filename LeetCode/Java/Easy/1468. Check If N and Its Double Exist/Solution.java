@@ -4,7 +4,7 @@ class Solution {
         for(int i=0;i<arr.length;i++) {
             int d = arr[i]*2;
             for(int j=0;j<arr.length;j++) {
-                if(d == arr[j]) {
+                if(d == arr[j] && i != j) {
                     return true;
                 }
             }
