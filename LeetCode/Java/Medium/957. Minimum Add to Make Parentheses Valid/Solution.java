@@ -1,11 +1,18 @@
 class Solution {
     public int minAddToMakeValid(String s) {
-        int c = 0;
-        for(int i=0;i<s.length();i++) {
+        int cc=0; int oc=0; int ans = 0;
+        for(int i = 0;i<s.length();i++) {
             if(s.charAt(i) == '(') {
-                c++;
+                oc++;
+            } else {
+                cc++;
             }
         }
-        return c;
+        if(oc > cc) {
+            ans = oc - cc;
+        } else {
+            ans = cc - oc;
+        }
+        return ans;
     }
 }
