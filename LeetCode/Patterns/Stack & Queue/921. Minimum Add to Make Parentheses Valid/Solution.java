@@ -1,4 +1,4 @@
-class Solution {
+/* class Solution {
     public int minAddToMakeValid(String s) {
         int cc=0; int oc=0; int ans = 0;
         for(int i = 0;i<s.length();i++) {
@@ -15,4 +15,4 @@ class Solution {
         }
         return ans;
     }
-}
+} */
