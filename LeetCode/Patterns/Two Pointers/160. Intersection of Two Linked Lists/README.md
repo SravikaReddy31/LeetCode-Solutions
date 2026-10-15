@@ -8,8 +8,8 @@
 Hash Table, Linked List, Two Pointers
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1452 ms
+- **Memory:** 52.1 MB
 
 ---
 
