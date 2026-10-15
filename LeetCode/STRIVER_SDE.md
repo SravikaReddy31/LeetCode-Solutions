@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 10 / 76 (13.2%)
+- **Completed:** 11 / 76 (14.5%)
 
 ---
 
@@ -39,7 +39,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [ ] Remove Nth Node From End of List
 - [ ] Add Two Numbers
 - [ ] Delete Node in a Linked List
-- [ ] Intersection of Two Linked Lists
+- [x] [Intersection of Two Linked Lists](./Java/Easy/160. Intersection of Two Linked Lists/)
 - [ ] Linked List Cycle
 - [ ] Reverse Nodes in k-Group
 - [x] [Palindrome Linked List](./Java/Easy/234. Palindrome Linked List/)
