@@ -102,7 +102,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Third Maximum Number
 - [ ] Maximum Product of Three Numbers
 - [ ] Largest Number At Least Twice of Others
-- [x] [Smallest Range I](./Java/Easy/908. Smallest Range I/)
+- [x] [Smallest Range I](./Java/Easy/944. Smallest Range I/)
 
 ### 📂 MODULE  3.6: SEARCHING WITHOUT FORMAL BI
 - [ ] Search Insert Position
