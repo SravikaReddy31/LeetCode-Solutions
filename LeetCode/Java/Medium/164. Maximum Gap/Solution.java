@@ -1,6 +1,6 @@
 class Solution {
     public int maximumGap(int[] nums) {
-        int diff = 0, diff2 = 0, ans = 0;
+        int diff = 0, diff2 = ;
         Arrays.sort(nums);
         if(nums.length < 2) {
             return 0;
