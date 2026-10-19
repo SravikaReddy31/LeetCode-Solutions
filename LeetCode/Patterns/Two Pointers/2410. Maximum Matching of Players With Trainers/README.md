@@ -1,6 +1,6 @@
 # 📝 2410. Maximum Matching of Players With Trainers (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/maximum-matching-of-players-with-trainers)
+🔗 [Problem Link](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/?envType=problem-list-v2&envId=two-pointers)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
