@@ -1,6 +1,6 @@
 # 📝 556. Next Greater Element III (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/next-greater-element-iii/)
+🔗 [Problem Link](https://leetcode.com/problems/next-greater-element-iii/?envType=problem-list-v2&envId=two-pointers)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
