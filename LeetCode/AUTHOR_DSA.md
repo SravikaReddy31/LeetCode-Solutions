@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 12 / 238 (5.0%)
+- **Completed:** 13 / 238 (5.5%)
 
 ---
 
@@ -109,7 +109,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Search in Rotated Sorted Array
 - [ ] Find First and Last Position of Element in Sorted Array
 - [ ] Find Peak Element
-- [ ] Maximum Gap
+- [x] [Maximum Gap](./Java/Medium/164. Maximum Gap/)
 
 ### 📂 MODULE  3.7: SUBARRAY & PREFIX INTUITION
 - [ ] Maximum Subarray
