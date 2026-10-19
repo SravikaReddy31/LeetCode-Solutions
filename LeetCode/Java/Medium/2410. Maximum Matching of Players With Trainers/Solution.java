@@ -7,7 +7,6 @@ class Solution {
             if(players[i] <= trainers[j] || trainers[j] <= players[i]) {
                 count++;
                 i++;
-
             }
             j++;
         }
