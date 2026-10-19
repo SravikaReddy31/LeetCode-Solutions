@@ -8,7 +8,7 @@ class Solution {
         int i=0, j=i+1;
         while(i<nums.length && j<nums.length) {
             diff = Math.abs(nums[i] - nums[j]);
-            diff2 = diff;
+            if
             i++;
             j++;
         }
