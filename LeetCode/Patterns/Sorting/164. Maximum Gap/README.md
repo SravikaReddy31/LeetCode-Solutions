@@ -1,6 +1,6 @@
 # 📝 164. Maximum Gap (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/maximum-gap/?envType=problem-list-v2&envId=sorting)
+🔗 [Problem Link](https://leetcode.com/problems/maximum-gap/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
