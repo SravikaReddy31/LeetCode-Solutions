@@ -6,8 +6,8 @@ class Solution {
         while(i<players.length && j<trainers.length) {
             if(players[i] <= trainers[j] || trainers[j] <= players[i]) {
                 count++;
-                break;
-                
+                i++;
+
             }
             j++;
         }
