@@ -4,7 +4,7 @@ class Solution {
         int i = 0;
         int j = 0;
         while(i<players.length && j<trainers.length) {
-            if(players[i] <= trainers[j] || players[i] <= trainers[j]) {
+            if(players[i] <= trainers[j] || trainers[j] <= players[i]) {
                 count++;
                 i++;
             }
