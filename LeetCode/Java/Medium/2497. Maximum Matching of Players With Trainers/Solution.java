@@ -4,11 +4,13 @@ class Solution {
         int i = 0;
         int j = 0;
         while(i<players.length && j<trainers.length) {
-            if(players[i] <= trainers[j] || trainers[j] <= players[i]) {
+            if(players[i] <= trainers[j]) {
                 count++;
                 i++;
+                j++;
+            } else {
+                j++;
             }
-            j++;
         }
         return count;
     }
