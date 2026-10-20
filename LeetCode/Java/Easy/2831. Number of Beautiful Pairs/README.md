@@ -8,7 +8,7 @@
 Array, Hash Table, Math, Counting, Number Theory
 
 ### 🚀 Performance
-- **Runtime:** 134 ms
+- **Runtime:** 15 ms
 - **Memory:** 45.9 MB
 
 ---
