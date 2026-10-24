@@ -21,7 +21,7 @@ class Solution {
         }
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
-        int level = 1;
+        int level = 0;
         while(!q.isEmpty()) {
             int n = q.size();
             ArrayList<Integer> al = new ArrayList<>();
@@ -33,11 +33,13 @@ class Solution {
                 if(cur.right != null) {
                     q.add(cur.right);
                 }
-                al.add(cur.val);
+                if(level % 2 == 1) {
+                    al.add(0, cur.val);
+                }
+                else {
+                    al.add(cur.val);
+                }
                 q.remove();
-            }
-            if(level % 2 == 0) {
-                Collections.reverse(al);
             }
             ans.add(al);
             level++;
