@@ -27,17 +27,22 @@ class Solution {
         Queue<Node> q = new LinkedList<>();
         q.add(root);
         while(!q.isEmpty()) {
-            ArrayList<Node> al = new ArrayList<>();
+            //ArrayList<Node> al = new ArrayList<>();
+            Node prev = null;
             int n = q.size();
             for(int i=0;i<n;i++) {
                 Node cur = q.poll();
                 if(cur.left != null) q.offer(cur.left);
                 if(cur.right != null) q.offer(cur.right);
-                al.add(cur);
+                if(prev != null) {
+                    prev.next = cur;
+                }
+                prev = cur;
             }
+                /* al.add(cur);
             for(int i=0;i<al.size()-1;i++) {
                 al.get(i).next = al.get(i+1);
-            }
+            } */
         }
         return root;
     }
