@@ -9,7 +9,7 @@ Two Pointers, String, String Matching, Z Algorithm, Knuth–Morris–Pratt Algor
 
 ### 🚀 Performance
 - **Runtime:** 0 ms
-- **Memory:** 43 MB
+- **Memory:** 42.5 MB
 
 ---
 
