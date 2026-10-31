@@ -1,5 +1,5 @@
 class Solution {
-    int rob(int nums[], int idx) {
+    int rob(int nums[], int idx, i) {
         if(idx >= nums.length) return 0;
         int rob = nums[idx] + rob(nums, idx+2);
         int nrob = rob(nums, idx+1);
