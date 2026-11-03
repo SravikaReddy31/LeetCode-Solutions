@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs Advanced DSA interview preparation list.
 
 ## Progress
-- **Completed:** 10 / 65 (15.4%)
+- **Completed:** 11 / 65 (16.9%)
 
 ---
 
@@ -66,7 +66,7 @@ Track your progress on the Curated 100hrs Advanced DSA interview preparation lis
 - [x] [Validate Stack Sequences](./Java/Medium/946. Validate Stack Sequences/)
 
 ### 📂 Module  2.2: Parentheses & Bracket Patte
-- [ ] Valid Parentheses
+- [x] [Valid Parentheses](./Java/Easy/20. Valid Parentheses/)
 - [ ] Longest Valid Parentheses
 - [ ] Maximum Nesting Depth of the Parentheses
 - [x] [Remove Outermost Parentheses](./Java/Easy/1078. Remove Outermost Parentheses/)
