@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 25 / 150 (16.7%)
+- **Completed:** 26 / 150 (17.3%)
 
 ---
 
@@ -103,7 +103,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Permutations
 - [ ] Subsets II
 - [ ] Combination Sum II
-- [ ] Word Search
+- [x] [Word Search](./Java/Medium/79. Word Search/)
 - [ ] Palindrome Partitioning
 - [x] [Letter Combinations of a Phone Number](./Java/Medium/17. Letter Combinations of a Phone Number/)
 - [ ] N-Queens
