@@ -8,8 +8,8 @@
 Array, Hash Table, Graph Theory
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 3 ms
+- **Memory:** 52.9 MB
 
 ---
 
