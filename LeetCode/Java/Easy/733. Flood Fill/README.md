@@ -8,8 +8,8 @@
 Array, Depth-First Search, Breadth-First Search, Matrix
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 46.1 MB
 
 ---
 
@@ -30,9 +30,9 @@ To perform a  **flood fill** :
 
 Return the  **modified**  image after performing the flood fill.
 
-OriginalJava **Example 1:**
+**Example 1:**
 
-**Input:**  int[][] image = new int[][]{{1, 1, 1}, {1, 1, 0}, {1, 0, 1}};int sr = 1;int sc = 1;int color = 2;
+**Input:**  image = [[1,1,1],[1,1,0],[1,0,1]], sr = 1, sc = 1, color = 2
 
 **Output:**  [[2,2,2],[2,2,0],[2,0,1]]
 
@@ -46,7 +46,7 @@ Note the bottom corner is  **not**  colored 2, because it is not horizontally or
 
 **Example 2:**
 
-**Input:**  int[][] image = new int[][]{{0, 0, 0}, {0, 0, 0}};int sr = 0;int sc = 0;int color = 0;
+**Input:**  image = [[0,0,0],[0,0,0]], sr = 0, sc = 0, color = 0
 
 **Output:**  [[0,0,0],[0,0,0]]
 
