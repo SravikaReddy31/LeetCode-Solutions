@@ -1,13 +1,9 @@
 class Solution {
     public boolean isPalindrome(String s) {
-        int n = s.length();
         s = s.toLowerCase();
         String s2 = "";
-        for(int i=0; i<n; i++) {
-            if(s.charAt(i) >= '0' && s.charAt(i) <= '9') {
-                s2 = s2 + s.charAt(i);
-            }
-            else if(s.charAt(i) >= 'a' && s.charAt(i) < 'z') {
+        for(int i=0; i<s.length(); i++) {
+            if((s.charAt(i) >= '0' && s.charAt(i) <= '9') || s.charAt(i) >= 'a' && s.charAt(i) < 'z') {
                 s2 = s2 + s.charAt(i);
             }
         }
@@ -21,3 +17,28 @@ class Solution {
         return true;
     }
 }
+/* class Solution {
+    public boolean isPalindrome(String s) {
+        
+        int left = 0, right = s.length() - 1;
+        while(left < right){
+            char head = s.charAt(left);
+            char tail = s.charAt(right);
+            if(head >= 'A' && head <= 'Z') head = (char)(head + 32);
+            else if(!((head >= 'a' && head <= 'z') || (head >= '0' && head <= '9'))){
+                left++;
+                continue;
+            }
+            if(tail >= 'A' && tail <= 'Z') tail = (char)(tail + 32);
+            else if (!((tail >= 'a' && tail <= 'z') || (tail >= '0' && tail <='9'))){
+                right--;
+                continue;
+            }
+            if(head != tail) return false;
+            left++;
+            right--; 
+        }
+
+        return true;
+    }
+} */
